@@ -12,7 +12,7 @@ jobs:
 
         - name: "Build the image"
           run: |
-            sudo docker build -t mutiuadeniyi290/books-app:1 .
+            docker build -t mutiuadeniyi290/books-app:1 .
 
         - name: "Login to Dockerhub"
           uses: docker/login-action@v1
